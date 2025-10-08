@@ -1,0 +1,26 @@
+# VS Code設定檔案
+.vscode/
+
+# 編譯產生檔案
+*.o
+*.bin
+*.out
+*.elf
+*.map
+*.lst
+
+# 除錯檔案
+debug/
+
+# 備份檔案
+*~
+*.bak
+
+# 作業系統產生檔案
+.DS_Store
+Thumbs.db
+
+# 臨時檔案
+*.tmp
+*.swp
+*.swo
