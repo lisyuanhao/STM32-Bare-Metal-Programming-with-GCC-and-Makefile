@@ -8,7 +8,6 @@ extern uint32_t _edata;
 extern uint32_t _bss;
 extern uint32_t _ebss;
 
-// ¨ç¼ÆÁn©ú
 void reset_handler(void);
 void nmi_handler(void);
 int main(void);
