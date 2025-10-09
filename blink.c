@@ -3,7 +3,7 @@
 int global = 123;
 
 int main(void){
-    volatile unsigned int c = 0;
+    unsigned int c = 0;
     
     c = global;
     
