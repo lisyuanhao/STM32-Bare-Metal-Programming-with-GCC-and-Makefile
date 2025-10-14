@@ -18,7 +18,7 @@ SECTIONS
         _text_ram = .;
         *(.text)
         *(.text*)
-        _load_data = .;         /* Flash 中 data section 的載入位址 */
+        _load_data = .;        
     } > RAM
 
     .data :AT (_load_data){ 
